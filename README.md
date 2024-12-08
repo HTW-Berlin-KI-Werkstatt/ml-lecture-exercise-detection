@@ -8,6 +8,7 @@ This repository contains scripts to train a YOLOv8 model on a custom dataset and
 First, install the required packages:
 ```bash
 conda create -n yolo python=3.10 # or whatever virtual env you like
+conda activate yolo
 pip install torch torchvision opencv-python ultralytics numpy supervision gdown label-studio
 ```
 
